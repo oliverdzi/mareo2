@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mareo - obuwie i odzież Wschowa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+ 
+    <nav class="navbar">
+        <h1><a href="index.html"><img src="images/logo.png" alt="logo" class="logo"></a></h1>
+            <button class="menu-toggle">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="oferta.html">Oferta</a></li>
+                <li><a href="index.html">Kolekcje</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="obsluga.html">Obsługa klienta</a></li>
+            </ul>
+        </ul>
+        <div class="nav-icons">
+            <span><a href="https://www.facebook.com/mareowschowa" target="_blank"><i class="fa fa-facebook" style="font-size:24px"></i></a></span>
+            <span><a href="https://www.instagram.com/mareo.pl/" target="_blank"><i class="fa fa-instagram" style="font-size:24px"></i></a></span>
+            <span><a href="https://www.allegro.pl/" target="_blank"><img src="images/Allegro.pl_sklep.svg.png" alt="allegro" class="allegro"></a></span>
+            <span><a href="https://www.google.pl/maps/search/mareo+wschowa/@51.8059293,16.3150511,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MDMxOS4yIKXMDSoASAFQAw%3D%3D" target="_blank"><i class="fa fa-map-marker" style="font-size:24px"></i></a></span>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h2>Nowa Kolekcja Wiosna 2025</h2>
+            <p>Styl i elegancja na każdą okazję</p>
+            <button class="btn">Zobacz kolekcję</button>
+        </div>
+    </header>
+    <section class="products">
+        <h3>Nasze Bestsellery</h3>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images/biale.jpg" alt="Produkt 1">
+                <h4>Produkt 1</h4>
+                <p>Stylowy i wygodny</p>
+                <button class="btn">Zobacz więcej</button>
+            </div>
+            <div class="product">
+                <img src="images/rozowe.jpg" alt="Produkt 2">
+                <h4>Produkt 2</h4>
+                <p>Stylowy i wygodny</p>
+                <button class="btn">Zobacz więcej</button>
+            </div>
+            <div class="product">
+                <img src="images/czarne.jpg" alt="Produkt 3">
+                <h4>Produkt 3</h4>
+                <p>Stylowy i wygodny</p>
+                <button class="btn">Zobacz więcej</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="dane">
+                    <h3>Kontakt</h3>
+                    <p><strong>Adres:</strong></p> 
+                    
+                    <label>
+                        <input type="radio" name="address" value="Bohaterów Westerplatte 12, Wschowa" checked>
+                        ul. Bohaterów Westerplatte 12
+                    </label><br>
+                    
+                    <label>
+                        <input type="radio" name="address" value="Niepodległości 24, Wschowa">
+                        ul. Niepodległości 24
+                    </label><br>
+                    
+                    <label>
+                        <input type="radio" name="address" value="Powstańców Wielkopolskich 6, Wschowa">
+                        ul. Powstańców Wielkopolskich 6
+                    </label>
+    
+                    <p><strong>Godziny otwarcia:</strong></p>
+                    <ul>
+                        <li><b>Pon-Pt:</b> 10:00 - 18:00</li>
+                        <li><b>Sobota:</b> 10:00 - 14:00</li>
+                        <li><b>Niedziela:</b> Zamknięte</li>
+                    </ul>
+                    <p><strong>Telefon:</strong> +48 123 456 789</p>
+                    <p><strong>Email:</strong> mareo@gmail.com</p> 
+                </div>  
+                <div class="contact-map">
+                    <div style="width: 100%">
+                        <iframe class="map" width="350" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src=""><a href="https://www.gps.ie/collections/drones/">drones ireland</a></iframe>
+                    </div>
+                </div>           
+            </div>
+            
+        </div>
+    </section>
+
+   
+    <div id="chat-button">
+        Potrzebujesz pomocy?
+    </div>
+    <div id="chat-box">
+        <div id="chat-header">
+            <span>Czat z nami</span>
+            <button id="close-chat">&times;</button>
+        </div>
+        <div id="chat-content">
+            <p><strong>Asystent:</strong> Witaj! Jak mogę pomóc? 😊</p>
+        </div>
+        <div id="chat-input">
+            <input type="text" placeholder="Napisz wiadomość..." id="chat-message">
+            <button id="send-message">➤</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 MMS s.c. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
